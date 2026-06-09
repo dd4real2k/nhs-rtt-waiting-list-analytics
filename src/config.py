@@ -13,4 +13,4 @@ PROCESSED_DATA_PATH = PROJECT_ROOT / "data" / "processed" / "rtt_incomplete_prov
 
 # Example for local PostgreSQL:
 # postgresql+psycopg2://postgres:password@localhost:5432/nhs_rtt
-DATABASE_URL = os.getenv("DATABASE_URL", "postgresql+psycopg2://localhost:5432/nhs_rtt")
+DATABASE_URL = os.getenv("DATABASE_URL", "postgresql+psycopg2:///nhs_rtt")
